@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
-    "start": "webpack-dev-server"
+    "start": "webpack-dev-server",
+    "deploy": "gh-pages -d distnp"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +17,7 @@
     "@babylonjs/loaders": "^6.33.0"
   },
   "devDependencies": {
+    "gh-pages": "^6.1.0",
     "html-webpack-plugin": "^5.5.4",
     "ts-loader": "^9.5.1",
     "typescript": "^5.3.3",

@@ -1,9 +1,6 @@
 import {
-  ArcRotateCamera,
   Engine,
   HemisphericLight,
-  Mesh,
-  MeshBuilder,
   Scene,
   SceneLoader,
   UniversalCamera,
@@ -32,7 +29,7 @@ class App {
 
     var camera: UniversalCamera = new UniversalCamera(
       "Camera",
-      new Vector3(-86, -126, -52),
+      new Vector3(-86, 0, -52),
       scene
     );
 
